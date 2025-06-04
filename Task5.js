@@ -29,5 +29,5 @@ function updateAge(nameArr, name, age) {
   return person;
 }
 
-const result = updateAge(arr, "Akbar", 30);
-console.log(arr);
+const result = updateAge(arr, "Akbr", 30);
+console.log("current array", arr);
