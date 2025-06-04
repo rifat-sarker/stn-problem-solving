@@ -23,7 +23,7 @@ const persons = [
   },
 ];
 
-function filterName(arrayOfPeople) {
+function getMaleNames(arrayOfPeople) {
   const filterOutFemales = arrayOfPeople.filter(
     (person) => person.gender !== "female"
   );
@@ -31,7 +31,7 @@ function filterName(arrayOfPeople) {
   return arrOfNames;
 }
 
-const result = filterName(persons);
+const result = getMaleNames(persons);
 console.log(result);
 
 
