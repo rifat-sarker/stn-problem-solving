@@ -1,5 +1,4 @@
-// 10. Task: Functional Programming - Reduce--
-// -Write a function that uses the reduce function to calculate the total value of an array of objects with a 'quantity' and 'price' property.interview
+// 10. Task10: Functional Programming - Reduce - Write a function that uses the reduce function to calculate the total value of an array of objects with a 'quantity' and 'price' property.interview
 
 const items = [
   { quantity: 2, price: 10 },
